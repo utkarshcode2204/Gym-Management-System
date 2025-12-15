@@ -1,39 +1,26 @@
-# 🏋️ Gym Management System
+# Gym Management System 🏋️‍♂️
 
-A full-stack **Gym Management System** built to manage gym members, plans, payments, attendance, and admin operations efficiently.
-
-This project demonstrates **backend development, REST APIs, authentication, and database design** using real-world practices.
+A full-stack **Gym Management System** built using **HTML, CSS, JavaScript (Frontend)** and **Node.js, Express, MySQL (Backend)**.  
+This project helps manage gym members, plans, payments, authentication, and admin dashboard features.
 
 ---
 
 ## 🚀 Features
 
-### 🔐 Authentication & Security
-- Admin login with JWT authentication
-- Password hashing using bcrypt
-- Role-based route protection
+### 🔹 Frontend
+- Responsive UI
+- Home, Plans, Register, About, Contact pages
+- Membership registration form
+- Clean and simple design
 
-### 👤 Member Management
-- Register new gym members
-- View and manage all members
-- Assign membership plans
-
-### 📦 Membership Plans
-- Basic / Standard / Premium plans
-- Configurable pricing and duration
-
-### 💳 Payments
-- Record membership payments
-- Auto-calculate expiry date
-- Maintain payment history
-
-### 📊 Admin Dashboard
-- View total members count
-- Secure admin-only APIs
-
-### 🗓 Attendance Management
-- Mark daily attendance
-- Track attendance records
+### 🔹 Backend
+- User authentication (JWT-based)
+- Admin & role-based access
+- Member management
+- Plan management
+- Payments & expiry handling
+- Dashboard statistics (total members, plans, etc.)
+- MySQL database integration
 
 ---
 
@@ -48,10 +35,22 @@ This project demonstrates **backend development, REST APIs, authentication, and 
 - Node.js
 - Express.js
 - MySQL
-- JWT (JSON Web Token)
-- bcrypt
+- JWT Authentication
 
 ---
 
-## 📁 Project Structure
+## 📸 Screenshots
+
+### Home Page
+![Home Page](screenshots/Screenshot%202025-12-15%20160807.png)
+
+### Plans Page
+![Plans Page](screenshots/Screenshot%202025-12-15%20160723.png)
+
+### Registration Page
+![Register Page](screenshots/Screenshot%202025-12-15%20160742.png)
+
+---
+
+## 📂 Project Structure
 
